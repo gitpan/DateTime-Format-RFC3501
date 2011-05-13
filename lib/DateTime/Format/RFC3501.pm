@@ -1,9 +1,12 @@
-package DateTime::Format::RFC3501;
-# ABSTRACT: Parse and format RFC3501 datetime strings
-
-
 use strict;
 use warnings;
+
+package DateTime::Format::RFC3501;
+BEGIN {
+  $DateTime::Format::RFC3501::VERSION = '0.02';
+}
+# ABSTRACT: Parse and format RFC3501 datetime strings
+
 
 use Carp;
 use DateTime();
@@ -102,7 +105,7 @@ DateTime::Format::RFC3501 - Parse and format RFC3501 datetime strings
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 
@@ -164,6 +167,43 @@ L<DateTime::Format::Strptime>
 =item *
 
 L<http://tools.ietf.org/html/rfc3501>, "Internet Message Access Protocol - version 4rev1"
+
+=back
+
+=head1 BUGS
+
+Please report any bugs or feature requests to
+C<bug-datetime-format-rfc3501 at rt.cpan.org>,
+or through the web interface at
+L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=DateTime-Format-RFC3501>.
+I will be notified, and then you'll automatically be notified of progress
+on your bug as I make changes.
+
+=head1 SUPPORT
+
+You can find documentation for this module with the perldoc command.
+
+    perldoc DateTime::Format::RFC3501
+
+You can also look for information at:
+
+=over 4
+
+=item * RT: CPAN's request tracker
+
+L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=DateTime-Format-RFC3501>
+
+=item * AnnoCPAN: Annotated CPAN documentation
+
+L<http://annocpan.org/dist/DateTime-Format-RFC3501>
+
+=item * CPAN Ratings
+
+L<http://cpanratings.perl.org/d/DateTime-Format-RFC3501>
+
+=item * Search CPAN
+
+L<http://search.cpan.org/dist/DateTime-Format-RFC3501>
 
 =back
 

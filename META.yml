@@ -18,5 +18,5 @@ requires:
   Carp: 0
   DateTime: 0
 resources:
-  repository: git://github.com/alexm/DateTime-Format-RFC3501.git
-version: 0.01
+  repository: http://github.com/alexm/DateTime-Format-RFC3501
+version: 0.02

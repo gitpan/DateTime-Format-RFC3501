@@ -4,6 +4,7 @@ MANIFEST
 META.yml
 Makefile.PL
 README
+README.md
 dist.ini
 lib/DateTime/Format/RFC3501.pm
 t/00_load.t
